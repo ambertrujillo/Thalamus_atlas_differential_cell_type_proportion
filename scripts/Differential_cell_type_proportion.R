@@ -2,7 +2,10 @@
 ##### Running Differential cell type proportions -- Propeller #####
 ###################################################################
 
-setwd("")
+working_dir=""
+data_dir=""
+
+setwd(working_dir)
 
 #BiocManager::install("speckle")
 
