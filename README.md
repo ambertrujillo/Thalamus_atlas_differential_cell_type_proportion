@@ -1,0 +1,2 @@
+# Thalamus_atlas_differential_cell_type_proportion
+This pipeline calculates transformed proportions and performs differential cell type proportion
