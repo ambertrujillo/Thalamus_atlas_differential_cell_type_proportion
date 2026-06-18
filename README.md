@@ -1,4 +1,4 @@
-# Thalamus_atlas_differential_cell_type_proportion
+# Differential Cell Type Proportion - Thalamus atlas
 ---
 
 ## Dependencies
