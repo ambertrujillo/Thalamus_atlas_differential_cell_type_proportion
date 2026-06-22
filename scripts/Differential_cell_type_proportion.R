@@ -12,11 +12,8 @@ setwd(working_dir)
 library(speckle)
 library(limma)
 library(edgeR)
-library(pheatmap)
-library(gt)
 library(anndata)
 library(dplyr)
-library(ggpubr)
 
 ##### Load data - and make dataframe #####
 data <- read_h5ad("adata.h5ad")

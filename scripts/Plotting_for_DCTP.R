@@ -4,9 +4,9 @@
 
 setwd("")
 
-library(airway)
-library(magrittr)
-library(EnhancedVolcano)
+library(ggplot2)
+library(dplyr)
+library(ggrepel)
 
 
 ##### Volcano Plot #####

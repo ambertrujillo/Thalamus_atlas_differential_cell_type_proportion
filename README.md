@@ -27,8 +27,8 @@ Thalamus_atlas_differential_cell_type_proportion/
 
 ```r
 BiocManager::install("speckle")
-install.packages(c("limma", "edgeR", "pheatmap", "gt", "anndata",
-                   "dplyr", "ggpubr", "ggplot2", "ggrepel"))
+install.packages(c("limma", "edgeR", "anndata",
+                   "dplyr", "ggplot2", "ggrepel"))
 ```
 
 ---
