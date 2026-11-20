@@ -16,13 +16,13 @@ library(anndata)
 library(dplyr)
 
 ##### Load data - and make dataframe #####
-data <- read_h5ad("adata.h5ad")
+data <- read_h5ad("thalamus_adata.h5ad")
 
 
 data_df <- data.frame(
   "sample" = factor(as.character(data$obs$SampleID)), # Donor IDs
   "condition" = factor(as.character(data$obs$general_disease)), # Condition to be compared
-  "cluster" = factor(as.character(data$obs$annotation)), # Clusters you want cell type proportions for
+  "cluster" = factor(as.character(data$obs$annotation_04142026)), # Clusters you want cell type proportions for
   "study" = factor(as.character(data$obs$study)) # Any other covariates to be included
 )
 
