@@ -35,11 +35,9 @@ Within the script, set the following variables before running:
 
 | Variable | Description | Example |
 |---|---|---|
-| `working_dir` | Path to working directory | `"/path/to/working/directory"` |
-| `data_dir` | Path to input annotated `.h5ad` file | `"/path/to/data/directory/adata.h5ad"` |
 | `sample` | Column name for donor IDs in `obs` | `"SampleID"` |
 | `condition` | Column name for disease/condition in `obs` | `"general_disease"` |
-| `cluster` | Column name for cell type annotations in `obs` | `"annotation"` |
+| `cluster` | Column name for cell type annotations in `obs` | `"annotation_04142026"` |
 | `study` | Column name for batch/cohort blocking variable in `obs` | `"study"` |
 | `design` | R formula for design matrix | `~ 0 + condition` |
 | `transform` | Proportion transformation | `"asin"` or `"logit"` |
