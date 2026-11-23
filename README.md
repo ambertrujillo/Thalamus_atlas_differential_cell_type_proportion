@@ -27,7 +27,7 @@ install.packages(c("limma", "edgeR", "anndata",
 
 ---
 
-## Script 1: `Differneital_cell_type_proportion.R`
+## Script 1: `Differential_cell_type_proportion.R`
 
 ### User Configuration
 
