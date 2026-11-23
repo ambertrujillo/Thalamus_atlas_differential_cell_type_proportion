@@ -10,16 +10,10 @@ This pipeline tests for differential cell type proportions (DCTP) across disease
 
 ---
 
-## Directory Structure
+## Pipeline Workflow
 
-```
-Thalamus_atlas_differential_cell_type_proportion/
-├── README.md
-    ├── scripts
-        ├── propeller_analysis.R
-        ├── propeller_plotting.R
+![screenshot](images/cell_type_proportion_workflow.png)
 
-```
 
 ---
 
